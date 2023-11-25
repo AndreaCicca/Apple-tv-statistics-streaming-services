@@ -1,0 +1,27 @@
+name: Run Python Script
+
+on:
+  push:
+    branches:
+      - main  # Cambia questo se il tuo branch principale ha un nome diverso
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8  # Puoi cambiare la versione di Python secondo le tue esigenze
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Python script
+      run: python main.py  # Sostituisci 'your_script.py' con il nome reale del tuo script

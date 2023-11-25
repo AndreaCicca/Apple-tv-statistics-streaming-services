@@ -2,6 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from collections import Counter
+import os
+from datetime import datetime
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 def read_url_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -13,7 +18,8 @@ def fetch_html_content(url):
     if response.status_code == 200:
         return response.text
     else:
-        raise Exception(f"Failed to fetch HTML content from {url}. Status code: {response.status_code}")
+        logging.error(f"Failed to fetch HTML content from {url}. Status code: {response.status_code}")
+        return None
 
 def parse_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -33,7 +39,6 @@ def extract_data(soup):
     return data
 
 def clean_special_characters(s):
-    # Rimuove caratteri di nuova linea, spazi non breaking e altri caratteri speciali non desiderati
     return s.replace('\n', '').replace('\xa0', '').strip()
 
 def write_to_json(data):
@@ -80,20 +85,31 @@ def write_to_readme(markdown_content):
     with open('README.md', 'w', encoding='utf-8') as readme_file:
         readme_file.write(markdown_content)
 
+def append_last_modified_date(readme_path):
+    last_modified_timestamp = os.path.getmtime(readme_path)
+    last_modified_datetime = datetime.utcfromtimestamp(last_modified_timestamp)
+    last_modified_str = last_modified_datetime.strftime('%Y-%m-%d %H:%M:%S UTC')
+
+    with open(readme_path, 'a') as readme_file:
+        readme_file.write('\n\nLast modified: ' + last_modified_str)
+
 def main():
     url_file_path = 'url.txt'
     url = read_url_from_file(url_file_path)
 
     html_content = fetch_html_content(url)
-    soup = parse_html(html_content)
-    extracted_data = extract_data(soup)
-    write_to_json(extracted_data)
+    if html_content:
+        soup = parse_html(html_content)
+        extracted_data = extract_data(soup)
+        write_to_json(extracted_data)
 
-    top_services_list = top_services(extracted_data)
-    top_countries_list = top_countries(extracted_data)
+        top_services_list = top_services(extracted_data)
+        top_countries_list = top_countries(extracted_data)
 
-    markdown_content = generate_markdown(extracted_data, top_services_list, top_countries_list)
-    write_to_readme(markdown_content)
+        markdown_content = generate_markdown(extracted_data, top_services_list, top_countries_list)
+        write_to_readme(markdown_content)
+
+        append_last_modified_date('README.md')
 
 if __name__ == "__main__":
     main()
