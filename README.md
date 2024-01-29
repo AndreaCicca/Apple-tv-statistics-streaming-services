@@ -6,7 +6,7 @@
 - Hbo Max: 28 services
 - Paramount+: 27 services
 - Amazon Prime Video: 21 services
-- Stella+: 17 services
+- Star+: 17 services
 - Vix: 17 services
 - Pluto Tv: 16 services
 - Cnbc*: 11 services
@@ -32,7 +32,7 @@
 - Lionsgate+
 - Paramount+
 - Pluto Tv
-- Stella+
+- Star+
 - Vix
 
 ### Australia
@@ -87,7 +87,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Brazil
@@ -112,7 +112,7 @@
 - Playkids
 - Pluto Tv
 - Red Bull Tv
-- Stella+
+- Star+
 - Viki
 
 ### Canada
@@ -172,7 +172,7 @@
 - Lionsgate+
 - Paramount+
 - Pluto Tv
-- Stella+
+- Star+
 - Vix
 
 ### Colombia
@@ -182,7 +182,7 @@
 - Lionsgate+
 - Paramount+
 - Pluto Tv
-- Stella+
+- Star+
 - Vix
 
 ### Costa Rica
@@ -190,7 +190,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Denmark
@@ -209,7 +209,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Ecuador
@@ -218,7 +218,7 @@
 - Hbo Max
 - Lionsgate+
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Egypt
@@ -232,7 +232,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Estonia
@@ -263,7 +263,7 @@
 - France.Tv
 - Garage
 - Hopster
-- Molotov Tv
+- Molotov Tv
 - Mubi
 - Mycanal
 - Ocs
@@ -306,7 +306,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Honduras
@@ -314,7 +314,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Hong Kong
@@ -379,8 +379,8 @@
 - Disney+
 
 ### Mexico
-- Abc News Live*
-- Al Jazeera English*
+- Abc News Live*
+- Al Jazeera English*
 - Amazon Prime Video
 - Bloomberg*
 - Cheddar*
@@ -400,7 +400,7 @@
 - Playkids
 - Pluto Tv
 - Red Bull Tv
-- Stella+
+- Star+
 - Viki
 - Vix
 - Мульт
@@ -417,7 +417,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Norway
@@ -454,7 +454,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Paraguay
@@ -462,7 +462,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Peru
@@ -471,7 +471,7 @@
 - Hbo Max
 - Lionsgate+
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Poland
@@ -580,7 +580,7 @@
 - Starzplay
 
 ### Uk
-- Al Jazeera English*
+- Al Jazeera English*
 - Amazon Freevee
 - Amazon Prime Video
 - Arte
@@ -623,7 +623,7 @@
 - Disney+
 - Hbo Max
 - Paramount+
-- Stella+
+- Star+
 - Vix
 
 ### Usa
@@ -648,7 +648,7 @@
 - Bravo
 - Britbox
 - Cartoon Network
-- Cbs 
+- Cbs
 - Cbs News*
 - Cbs Sports
 - Cheddar*
@@ -713,7 +713,7 @@
 - Paramount Network
 
 - Paramount+
-- Pbs Kids Video
+- Pbs Kids Video
 - Pbs Video
 - Peacock
 - Philo
@@ -735,7 +735,7 @@
 - Sundance Now
 - Syfy
 - Tbs
-- Telemundo  
+- Telemundo
 - The Cw
 - Tlc Go
 - Tnt
@@ -755,4 +755,4 @@
 
 
 
-Last modified: 2023-11-25 22:50:43 UTC
+Last modified: 2024-01-29 07:37:51 UTC

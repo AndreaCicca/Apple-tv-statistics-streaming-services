@@ -6,7 +6,7 @@
         "Lionsgate+",
         "Paramount+",
         "Pluto Tv",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Australia": [
@@ -61,7 +61,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Brazil": [
@@ -86,7 +86,7 @@
         "Playkids",
         "Pluto Tv",
         "Red Bull Tv",
-        "Stella+",
+        "Star+",
         "Viki"
     ],
     "Canada": [
@@ -146,7 +146,7 @@
         "Lionsgate+",
         "Paramount+",
         "Pluto Tv",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Colombia": [
@@ -156,7 +156,7 @@
         "Lionsgate+",
         "Paramount+",
         "Pluto Tv",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Costa Rica": [
@@ -164,7 +164,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Denmark": [
@@ -183,7 +183,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Ecuador": [
@@ -192,7 +192,7 @@
         "Hbo Max",
         "Lionsgate+",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Egypt": [
@@ -206,7 +206,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Estonia": [
@@ -237,7 +237,7 @@
         "France.Tv",
         "Garage",
         "Hopster",
-        "Molotov Tv",
+        "MolotovTv",
         "Mubi",
         "Mycanal",
         "Ocs",
@@ -280,7 +280,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Honduras": [
@@ -288,7 +288,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Hong Kong": [
@@ -353,8 +353,8 @@
         "Disney+"
     ],
     "Mexico": [
-        "Abc News Live*",
-        "Al Jazeera English*",
+        "Abc NewsLive*",
+        "Al JazeeraEnglish*",
         "Amazon Prime Video",
         "Bloomberg*",
         "Cheddar*",
@@ -374,7 +374,7 @@
         "Playkids",
         "Pluto Tv",
         "Red Bull Tv",
-        "Stella+",
+        "Star+",
         "Viki",
         "Vix",
         "Мульт"
@@ -391,7 +391,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Norway": [
@@ -428,7 +428,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Paraguay": [
@@ -436,7 +436,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Peru": [
@@ -445,7 +445,7 @@
         "Hbo Max",
         "Lionsgate+",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Poland": [
@@ -554,7 +554,7 @@
         "Starzplay"
     ],
     "Uk": [
-        "Al Jazeera English*",
+        "Al JazeeraEnglish*",
         "Amazon Freevee",
         "Amazon Prime Video",
         "Arte",
@@ -597,7 +597,7 @@
         "Disney+",
         "Hbo Max",
         "Paramount+",
-        "Stella+",
+        "Star+",
         "Vix"
     ],
     "Usa": [
@@ -684,7 +684,7 @@
         "Pac-12 Now",
         "Paramount Network",
         "Paramount+",
-        "Pbs Kids Video",
+        "Pbs KidsVideo",
         "PbsVideo",
         "Peacock",
         "Philo",
