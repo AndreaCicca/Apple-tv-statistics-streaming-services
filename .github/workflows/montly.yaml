@@ -3,6 +3,9 @@ name: Monthly Job
 on:
   schedule:
     - cron: "0 0 1 * *"
+  push: # Aggiunto evento di push
+    branches:
+      - main # Specifica il ramo su cui eseguire il push
 
 jobs:
   run_script:
@@ -14,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12' # Sostituisci 'x' con la versione di Python desiderata
+          python-version: '3.x' # Sostituisci 'x' con la versione di Python desiderata
       
       - name: Install Dependencies
         run: pip install -r requirements.txt
